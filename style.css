@@ -4,3 +4,77 @@ body {
   font-family:Arial;
   font-size:16px;
 }
+ul{
+  margin-top=30px;
+}
+li{
+  widht:40px;
+  height:20px;
+  float:right;
+  list-style-type:none;
+  padding:5px;
+}
+li:nth-child(2){
+  background: url("https://i.postimg.cc/D0n4GPxC/vinilos-decorativos-kit-9-circulos.jpg")no-repeat;
+background-size: contain;
+  padding:10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top:8px;
+
+}
+button {
+  widht:80px;
+  background-color:blue;
+  color:white;
+  border:1px solid;
+  font-weight:bold;
+  padding:10px 12px;
+  border-radius:3px;
+  margin-top:-5px;
+  cursor:pointer;
+}
+li:hover{
+  cursor:pointer;
+}
+#content img{
+  widht: 
+  height:150px;
+  margin-top: 200px;
+  margin-left:250px;
+}
+
+.textBox{
+  width:400px;
+  height:20px;;
+  border: 1px solid #6c66af;
+  border-radius: 6px;
+}
+.button2{
+color:black;
+font-size:11px;
+background-color:#f5f5f5;
+border:1px solid #d8d8d8;
+}
+
+#footer {
+  widht:100%;
+  height:50px;
+  position: absolute;
+  bottom:0;
+  background:#f5f5f5;
+}
+.bottomLeft{
+  color:#585858;
+  float:left;
+  padding:10px;
+  margin-left:20px;
+ text-decoration:none;
+}
+.bottomRight{
+  color:#585858;
+  float:right;
+  padding:10px;
+  margin-right:20px;
+  text-decoration:none;
+}
